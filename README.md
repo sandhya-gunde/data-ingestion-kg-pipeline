@@ -48,8 +48,8 @@ This project builds an end-to-end data pipeline, knowledge graph, semantic searc
 
 ---
 
-##  How to Run
-
+# Run the project
+pip install -r requirements.txt
 streamlit run app/app.py
 
 ---
