@@ -1,14 +1,59 @@
-# Data Ingestion KG Pipeline
+# Data Ingestion & Knowledge Graph Pipeline
 
-This repository contains the implementation of Milestone 1:
-- Data Ingestion from raw dataset
-- Data Cleaning using Pandas
-- Data Transformation & Normalization
-- Data Enrichment
-- Flask API to serve processed data
+##  Project Overview
 
-Technologies used:
-- Python
-- Pandas
-- Flask
-- Jupyter Notebook
+This project builds an end-to-end data pipeline, knowledge graph, semantic search system, and an interactive Streamlit dashboard.
+
+---
+
+##  Milestones
+
+###  Milestone 1: Data Ingestion
+
+* Data loading from raw dataset
+* Data cleaning using Pandas
+* Data transformation & normalization
+* Data enrichment
+
+###  Milestone 2: Knowledge Graph
+
+* Built graph using NetworkX
+* Nodes: customers, products, orders
+* Relationships between entities
+* Graph visualization
+
+###  Milestone 3: Semantic Search
+
+* Text preprocessing
+* TF-IDF vectorization
+* Cosine similarity
+* Relevant product retrieval
+
+###  Milestone 4: Streamlit Dashboard
+
+* Interactive UI using Streamlit
+* Search functionality
+* Data visualization
+
+---
+
+##  Technologies Used
+
+* Python
+* Pandas
+* NetworkX
+* Scikit-learn
+* Streamlit
+* Jupyter Notebook
+
+---
+
+##  How to Run
+
+streamlit run app/app.py
+
+---
+
+##  Author
+
+Sandhya Gunde
